@@ -1,0 +1,11 @@
+graph "Current Pipeline" {
+	A [label="Data Source"]
+	B [label="Power BI"]
+	C [label=CSV]
+	D [label="Python Scripts"]
+	E [label="Word Report"]
+	A -- B
+	B -- C
+	C -- D
+	D -- E
+}

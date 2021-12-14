@@ -1,0 +1,7 @@
+graph "Final Pipeline" {
+	A [label=Salesforce]
+	B [label="Python Scripts"]
+	C [label="Tableau Dashboard"]
+	A -- B
+	B -- C
+}
