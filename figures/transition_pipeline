@@ -1,13 +1,11 @@
 graph "Transition Pipeline" {
 	A [label="Data Source"]
 	B [label="Power BI"]
-	C [label="Python Scripts"]
-	D [label=CSV]
-	E [label="Python Scripts"]
-	F [label="Tableau Dashboard"]
+	C [label=CSV]
+	D [label="Python Scripts"]
+	E [label="Tableau Dashboard"]
 	A -- B
 	B -- C
 	C -- D
 	D -- E
-	E -- F
 }
